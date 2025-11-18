@@ -1,0 +1,103 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  background-color: rgb(54, 203, 203);
+  color: rgb(34, 34, 43);
+  font-size: 100px;
+  text-align: center;
+
+  width: 100%;
+}
+.sauce1 {
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(10, 7, 19);
+}
+
+.sauce {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: rgb(10, 7, 19);
+}
+.border-bottom {
+  border-bottom: 4px dotted;
+}
+#bottom-box {
+  border: #efefef 1px solid;
+  padding: 5px 0px 6px 0px;
+  margin: 5px;
+}
+
+.gold {
+  color: goldenrod;
+}
+.Crispy_Header {
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+.nav-item {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+
+  font-size: bold;
+  font-size: 20px;
+}
+.food-image {
+  display: flex;
+  flex-wrap: wrap; /* يخليهم ينزلوا تحت */
+  justify-content: center;
+  gap: 4px;
+}
+.food-item {
+  text-align: center;
+  width: 22%;
+}
+.padding_1 {
+  margin: 0px;
+  padding: 0px;
+}
+.padding_2 {
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+  .food-item {
+    width: 45%; /* وجبتين بالسطر */
+  }
+}
+.action {
+  background-color: rgb(255, 00, 00);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 180px;
+}
+.food {
+  text-align: center;
+  width: 200px;
+}
+.food-hofer:hover {
+  transform: scale(1.17);
+  transition: transform 0.6s;
+}
+.button-width {
+  width: 150px;
+}
