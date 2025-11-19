@@ -95,21 +95,15 @@ h1 {
   width: 180px;
 }
 .food-hofer:hover {
-  transform: scale(1.17);
-  transition: transform 0.6s;
+  transition: transform 0.25s ease;
+  transform: none;
 }
 .button-width {
   width: 150px;
   
 }
-@media (hover: none) and (pointer: coarse) {
-    .plate:hover {
-        transform: none !important;
-    }
 
-@media (max-width: 768px) {
-    .plate:hover {
-        transform: none !important;
-    }
-}
+media (hover: hover) and (pointer: fine) {
+  .food-hover:hover {
+    transform: scale(1.05);
 
