@@ -106,4 +106,10 @@ h1 {
 @media (hover: hover) and (pointer: fine) {
   .food-hover:hover {
     transform: scale(1.05);
+    
+@media (hover: none) and (pointer: coarse) {
+    .food-hover:hover {
+        transform: none !important;
+    }
+}
 
