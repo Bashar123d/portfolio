@@ -103,7 +103,7 @@ h1 {
   
 }
 
-media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
   .food-hover:hover {
     transform: scale(1.05);
 
