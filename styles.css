@@ -100,4 +100,11 @@ h1 {
 }
 .button-width {
   width: 150px;
+  
 }
+@media (hover: none) and (pointer: coarse) {
+    .plate:hover {
+        transform: none !important;
+    }
+}
+
