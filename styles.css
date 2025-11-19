@@ -94,7 +94,7 @@ h1 {
   text-align: center;
   width: 180px;
 }
-.food-hofer:hover {
+.food-hover:hover {
   transition: transform 0.25s ease;
   transform: none;
 }
