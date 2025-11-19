@@ -107,4 +107,9 @@ h1 {
         transform: none !important;
     }
 
+@media (max-width: 768px) {
+    .plate:hover {
+        transform: none !important;
+    }
+}
 
